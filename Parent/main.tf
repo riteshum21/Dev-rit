@@ -6,3 +6,17 @@ module "sg" {
   source     = "../Child/storage"
   depends_on = [module.RS]
 }
+
+
+# module "sg" {
+#   source     = "../Child/storage"
+#   depends_on = [module.RS]
+# }
+# module "sg" {
+#   source     = "../Child/storage"
+#   depends_on = [module.RS]
+# }
+# module "sg" {
+#   source     = "../Child/storage"
+#   depends_on = [module.RS]
+# }
